@@ -1,4 +1,5 @@
-package main.java; /**
+
+/**
  * This file contains a few exercises to familiarize you with Java.
  * You should read this file from top-to-bottom. Any tasks you are to complete
  * are labelled with TODO
@@ -8,7 +9,7 @@ package main.java; /**
  */
 
 /**
- *  1. In Java, no code can exist outside of a class. Unlike Python which uses
+ *  1. In Java, no code can exist outside a class. Unlike Python which uses
  *    functions, all code in Java uses methods.
  *
  *    For this exercise, all of our code is within the Basics class.
@@ -145,7 +146,7 @@ public class Basics {
         StringBuilder ret = new StringBuilder();
 
         // Fill in the rest of the body here
-        for (String variable : to_split.split(" ")){
+        for (String variable : to_split.split(" ")) {
             ret.append(variable.charAt(0));
         }
         return ret.toString();
